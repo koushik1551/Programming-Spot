@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming spot</title>
+    
+	<style>
+                      
+        *{
+          margin:0;
+          padding:0;
+        }
+
+        body{
+         font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+		                              <!-- search box-->
+		    
+		 .container{
+            background-color:white;
+        }
+
+	    .search{
+		      width:330px;
+		      float:right;
+          margin: -10px;
+          padding: -10px; 
+		
+        }
+
+        ::placeholder{
+		   color:white; 
+		}
+	     
+	    .srch{
+		      font-family:'Times New Roman';
+		      width:200px;
+		      height:12px;
+          background: transparent;
+          border:1.5px solid white;
+          margin-top: 13px;
+          color:white;
+          border-right: none;
+          font-size: 17px;
+          float:left;
+          padding: 8px;
+          border-bottom-left-radius: 5px;
+          border-top-left-radius: 5px;
+		}
+
+        .btn{
+		      width:100px;
+		      height:35px;
+          cursor:pointer;
+          background: white ;
+          border:2px solid white;
+          margin-top: 13px;
+          color:black;
+          font-size: 15px;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          
+        }
+	    
+        .srch:focus{
+            outline: none;
+        }
+
+        .btn:focus{
+            outline: none;
+        } 
+			
+			
+			
+			                          <!-- image cards -->
+			
+		body{
+		 font-family:Arial;
+		}
+        
+		.cards{
+		  width:18%;
+		  background: white;
+		  border-radius:5px;
+		  margin: 40px;
+		  box-shadow: 5px 5px 15px black;
+		  display:inline-block;
+		}
+		
+		.cards:hover{
+		  background: linear-gradient(90deg,orange,red);
+		}
+		
+		.image img{
+		  width:100%;
+		  height:12%;
+		  border-top-right-radius:5px;
+		  border-top-left-radius:5px;
+		}
+		
+		.title{
+		  text-align:center;
+		  padding:5px;
+		}
+		
+		.des{
+	     text-align:center;
+		 padding:10px;
+		}
+		
+		.btnn{
+		  margin-top:20px;
+		  margin-bottom:20px;
+		  background-color:white;
+		  border:1px solid black;
+		  border-radius:5px;
+		  padding:5px;
+		 }
+		
+		.btnn:hover{
+		  background-color:black;
+		  color:white;
+		  transition: .7s;
+		  cursor:pointer;
+		}
+
+    .cards{
+      animation:lang 5s forwards infinite;
+    }
+
+    @keyframes lang{
+      0%{
+       outline:2px solid red;
+       box-shadow: 5px 5px 15px red;
+       
+      }
+      25%{
+       outline:2px solid orange;
+       box-shadow: 5px 5px 15px orange;
+       
+      }
+      50%{
+       outline:2px solid green ;
+       box-shadow: 5px 5px 15px green;
+      }
+      75%{
+       outline:2px solid blue ;
+       box-shadow: 5px 5px 15px blue;
+      }
+      100%{
+       outline:2px solid black ;
+       box-shadow: 5px 5px 15px black;
+      }
+      
+    }
+		
+	</style>
+
+</head>
+
+<body background="C:\Users\vennam eshwar\Documents\Desktop\code.jpeg"
+   <div class="container">
+     <div class="search">
+          
+		  <input class="srch" type="text" name="search" placeholder="Enter Languages" />
+		  <a href="#"> <button class="btn">Search</button> </a>
+     </div>
+	                                 <br/><br/><br/><br/>
+	 
+     	             <!-- c-lang card-->
+
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\c-lang.png" alt="c lang" />
+     </div> 
+
+     <div class="title">
+          <h2>C language</h2> 
+     </div>
+
+     <div class="des">
+       <p> Dennis Ritchie | 1972 </p>
+       
+       <a href="c lang.html"><button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+
+	              <!-- java card-->
+				  
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\java1.jpeg" alt="java" />
+     </div> 
+
+     <div class="title">
+          <h2>Java</h2> 
+     </div>
+
+     <div class="des">
+       <p> James Gosling | 1995 </p>
+       
+      <a href="java.html"> <button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+	              <!-- python card-->
+				  
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\python.png" alt="python" />
+     </div> 
+
+     <div class="title">
+          <h2>Python</h2> 
+     </div>
+
+     <div class="des">
+       <p> Guido van Rossum | 1991 </p>
+       
+       <a href="python.html"> <button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+		              <!-- c++ card-->
+				  
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\c++.webp" alt="c++" />
+     </div> 
+
+     <div class="title">
+          <h2>C++</h2> 
+     </div>
+
+     <div class="des">
+       <p>  Bjarne Stroustrup | 1980 </p>
+       
+      <a href="c++.html"> <button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+	
+			           <!-- html card-->
+				  
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\html.png" alt="html" />
+     </div> 
+
+     <div class="title">
+          <h2>HTML</h2> 
+     </div>
+
+     <div class="des">
+       <p>  Tim Berners-Lee | 1991 </p>
+       
+       <a href="html.html"> <button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+				           <!-- css card-->
+				  
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\css.png" alt="css" />
+     </div> 
+
+     <div class="title">
+          <h2>CSS</h2> 
+     </div>
+
+     <div class="des">
+       <p>  HÃ¥kon Wium Lie | 1996 </p>
+       
+       <a href="css.html"> <button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+  				           <!-- js card-->
+				  
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\js1.png" alt="javascript" />
+     </div> 
+
+     <div class="title">
+          <h2>Java Script</h2> 
+     </div>
+
+     <div class="des">
+       <p>  Brendan Eich | 1995 </p>
+       
+       <a href="js.html"><button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+
+				           <!-- mysql card-->
+				  
+   <div class="cards">
+      <div class="image">
+          <img src="C:\Users\vennam eshwar\Documents\Desktop\mysql1.png" alt="mysql" />
+     </div> 
+
+     <div class="title">
+          <h2>MySql</h2> 
+     </div>
+
+     <div class="des">
+       <p>  Michael Widenius | 1995 </p>
+       
+       <a href="mysql.html"> <button class="btnn"> Learn now </button> </a>
+     </div>
+     
+    </div>
+
+  </div>   
+</body>
+</html>
+

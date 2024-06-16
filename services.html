@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming spot</title>
+
+   <style>
+       
+      *{
+	      margin:0;
+		    padding:0;
+		    box-sizing:border-box;
+	      font-family:'Poppins', san-serif;
+	    }
+	  
+	  .container{
+	     width:100%;
+		 height:100vh;
+		 background:linear-gradient(90deg,#CAC9EE,#E9C4F3);
+		 display:flex;
+		 align-items:center;
+		 justify-content:center;
+	  }
+	  
+      .skills h2{
+         font-weight:400;
+         font-size:16px;
+         letter-spacing:1px;
+         margin-top: 40px;
+         margin-bottom: 5px;
+         color:black;
+        }
+       
+	    
+       
+      .progressbar{
+        background: #959595;
+        width: 600px;
+        height: 10px;
+        border-radius: 5px;
+      }  
+	  
+      .progressbar div{
+        height: 10px;
+        width: 0;
+        border-radius: 5px;
+        background: red;
+      }
+	 
+      .progressbar div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float:right;
+        margin-top: -15px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+      .clang{
+        animation: clang 2s linear forwards;
+      }
+      .java{
+        animation: java 2s linear forwards;
+      }
+      .python{
+        animation: python 2s linear forwards;
+      }
+      .cplus{
+        animation: cplus 2s linear forwards;
+      }
+      .html{
+        animation: html 2s linear forwards;
+      }
+      .css{
+        animation: css 2s linear forwards;
+      }
+      .js{
+        animation: js 2s linear forwards;
+      }
+      .mysql{
+        animation: js 2s linear forwards;
+      }
+
+
+      .clang span{
+        border:1px solid red;
+      }
+      .java span{
+        border:1px solid red;
+      }
+      .python span{
+        border:1px solid red;
+      }
+      .cplus span{
+        border:1px solid red;
+      }
+      .html span{
+        border:1px solid red;
+      }
+      .css span{
+        border:1px solid red;
+      }
+      .js span{
+        border:1px solid red;
+      }
+      .mysql span{
+        border:1px solid red;
+      }
+      
+     @keyframes clang{
+        100%{
+           width:80%; 
+        }
+     }
+     @keyframes java{
+        100%{
+           width:70%; 
+        }
+     }
+     @keyframes python{
+        100%{
+           width:70%; 
+        }
+     }
+     @keyframes cplus{
+        100%{
+           width:80%; 
+        }
+     }
+     @keyframes html{
+        100%{
+           width:90%; 
+        }
+     }
+     @keyframes css{
+        100%{
+           width:90%; 
+        }
+     }
+     @keyframes js{
+        100%{
+           width:70%; 
+        }
+     }
+     @keyframes mysql{
+        100%{
+           width:70%; 
+        }
+     }
+
+ h3{
+   text-align:center;
+ }
+
+   </style>
+</head>
+
+<body>
+     <div class="container">
+	 
+	  <h3> Services of different programming languages are provided by our side. </h3>
+	  
+	  <h3>And the percentage indicates the availability of resources of each language in our website.And also the difficulty level to learn that language. </h3> 
+	  
+	 
+	   <div class="skills">
+           <h2>C lang</h2>
+           <div class="progressbar">
+             <div class="clang"><span>80%</span></div>
+	       </div>
+
+           <h2>JAVA</h2>
+           <div class="progressbar">
+             <div class="java"><span>70%</span></div>
+	       </div>
+
+           <h2>PYTHON</h2>
+           <div class="progressbar">
+             <div class="python"><span>70%</span></div>
+	       </div>
+
+           <h2>C++</h2>
+           <div class="progressbar">
+             <div class="cplus"><span>80%</span></div>
+	       </div>
+
+           <h2>HTML</h2>
+           <div class="progressbar">
+             <div class="html"><span>90%</span></div>
+	       </div>
+
+           <h2>CSS</h2>
+           <div class="progressbar">
+             <div class="css"><span>90%</span></div>
+	       </div>
+
+           <h2>JavaScript</h2>
+           <div class="progressbar">
+             <div class="js"><span>70%</span></div>
+	       </div>
+ 
+            
+           <h2>MySql</h2>
+           <div class="progressbar">
+             <div class="mysql"><span>70%</span></div>
+	       </div>
+
+       </div>	 
+	 </div>
+	 
+	 
+
+   
+</body>
+</html>
+

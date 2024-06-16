@@ -1,0 +1,115 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+   	color:white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+	text-align:left;
+	float:left;
+    padding:0;
+	text-transform:uppercase;
+    font-size:17px;
+	font-weight:bold;
+	cursor:pointer;
+	margin:3px;
+	padding:4px;	
+}
+
+.nav ul li{
+	list-style-type:none;
+	text-transform:uppercase;
+    margin:0 2px;
+	float:right;
+	display:inline-block;
+	position:relative;
+	word-spacing:2px;
+	z-index: 777;
+}
+
+.nav ul li::after{
+	content:'';
+	height:3px;
+	width:0;
+	background-color:#ff7606;
+	position:absolute;
+	left:0;
+	bottom:-3px;
+	transition:0.5s;
+	z-index: 888;
+		
+}
+
+.nav ul li:hover::after{
+	width:100%;
+}
+
+ul li a{
+	text-decoration:none;
+	display:block;
+    color:black;	
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	color:white;
+	margin:3px;
+	padding:4px;
+}
+
+li{
+	float:left;
+}
+
+video{
+	z-index: 000;
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	opacity:1;
+	mix-blend-mode:overlay;
+	} 
+
+h1{
+   margin:10px;
+   padding:210px; 
+   color: white;
+}
+
+h2{
+   margin-top:-190px;	
+   margin-left:220px;
+   margin-right:15px;
+   padding-left:-100px; 
+   padding-bottom:0;
+   padding-top:-150px;
+   color: white;
+}
+
+h4{
+   margin-left:220px;
+   margin-right:15px;
+   color:#ff7606;
+}
+
+.logo{
+animation: color 1.5s ease-in-out  infinite;;	
+}
+
+@keyframes color{
+	0%{
+    color:#ff7606;
+	}
+	50%{
+    color:white;
+	}
+	100%{
+	color: #ff7606;
+	}
+}
